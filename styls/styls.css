@@ -1,0 +1,921 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 599;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    background: rgb(34, 34, 34);
+}
+
+.miama {
+    font-family: 'Miama', sans-serif;
+}
+
+/* share styles  */
+
+.btn-primary {
+    background: rgb(230, 83, 60);
+    width: 220px;
+    height: 50px;
+    border: none;
+    border-radius: 42px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: 600;
+    
+
+}
+
+.btn-secondary {
+    width: 220px;
+    height: 50px;
+    font-weight: 599;
+    border-radius: 40px;
+    border: none;
+    color: rgb(255, 255, 255);
+    border: 1px solid whitesmoke;
+    background-color: black;
+    font-size: 1.2rem;
+    
+    
+
+}
+
+
+
+/* navbar container  */
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem;
+}
+
+.fitnes-head {
+    color: rgb(230, 83, 60);
+    font-size: 2.1rem;
+    font-weight: 798;
+    font-style: italic;
+}
+
+.navbar-content {
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-right: 4px;
+    gap: 2.8rem;
+    font-size: 1.2rem;
+    font-weight: 399;
+    line-height: 193%;
+    color: white;
+}
+
+#zoom {
+    border-radius: 31px;
+    background-color: rgb(230, 83, 60);
+    padding: 7px 15px;
+}
+
+.header-icon {
+    display: none;
+}
+
+
+/* banner section */
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 6rem;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.banner-head {
+    max-width: 530px;
+    color: rgb(255, 255, 255);
+    font-size: 4.8rem;
+    font-weight: 799;
+    text-align: left;
+
+}
+.buttons {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 1.8rem;
+    gap: 1rem;
+}
+.banner-text {
+    max-width: 400px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 1.8rem;
+
+}
+
+
+
+.banner-img {
+    width: 100%;
+    position: relative;
+
+}
+
+.banner-card {
+    max-width: 192px;
+    max-height: 97px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 5px;
+    position: absolute;
+    top: 29rem;
+    right: 5.2rem;
+}
+.banner-card p {
+    font-size: 0.9rem;
+    font-weight: 399;
+    color: rgba(255, 255, 255, 0.65);
+}
+.banner-card h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: white;
+}
+
+
+
+.banner-card2 {
+    max-width: 192px;
+    max-height: 97px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4px;
+    gap: 0.5rem;
+    position: absolute;
+    top: 42rem;
+    right: 18rem;
+}
+
+.banner-card2 h1 {
+    font-size: 2.2rem;
+    font-weight: 799;
+    color: white;
+}
+
+.banner-card2 p {
+    font-size: 0.9rem;
+    font-weight: 399;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.fa-circle-play {
+    max-width: 2.8rem;
+    font-size: 2rem;
+    color: tomato;
+}
+
+
+
+
+/* change-your-habits-container  */
+
+.habits-container {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.habit-head {
+    font-size: 3rem;
+    font-weight: 902;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.habit-pera {
+    max-width: 60rem;
+    margin: 0.9rem auto;
+    font-size: 0.9rem;
+    font-weight: 401;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+.habit-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4rem;
+    margin-top: 3.5rem;
+}
+
+.card-img {
+    border: 8px solid rgba(182, 187, 182, 0.249);
+    border-radius: 50%;
+    width: 50%;
+}
+
+.habit-card-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.habit-card {
+    width: 14.5rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.habit-card h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 1.2rem;
+}
+
+.habit-card p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0.5rem;
+}
+
+
+
+
+
+/* runner section  */
+
+.run-container {
+    width: 87%;
+    margin: 5rem auto;
+    background: rgba(59, 58, 58, 0.841);
+    border-radius: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.run-content {
+    width: 50%;
+    padding: 2rem;
+
+}
+
+.run-content h1 {
+    font-size: 3rem;
+    font-weight: 910;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+.run-content p {
+    font-size: 0.9rem;
+    font-weight: 395;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0.9rem;
+}
+
+#btn-run {
+    width: 220px;
+    height: 50px;
+    border: none;
+    border-radius: 40px;
+    background: rgb(230, 83, 60);
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    margin-top: 2rem;
+}
+
+.run-img {
+    width: 50%;
+    padding: 2rem;
+
+}
+
+.run-img img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+
+
+/* BMI section  */
+
+/* bmi- head */
+
+.bmi-head{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem auto;
+}
+
+.bmi-head h2{
+    font-size: 3rem;
+    font-weight: 895;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+.bmi-head p{
+    width: 35%;
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0.9rem;
+}
+
+
+/* BMI charts and calculator section  */
+.bmi-container {
+    background: rgba(48, 48, 48, 0.732);
+}
+
+.bmi-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5rem;
+}
+
+.bmi-chart {
+    /* width: 50%; */
+    width: 100%;
+}
+
+.bmi-chart,
+table,
+th,
+td {
+    padding: 1.1rem;
+
+}
+
+.bmi-chart h3 {
+    font-size: 1.8rem;
+    font-weight: 900;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 1.2rem;
+}
+
+th {
+    border: 1px solid rgba(235, 232, 232, 0.403);
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 5px;
+}
+
+td {
+    border: 1px solid rgba(255, 255, 255, 0.508);
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+.Calculate-head h3 {
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin-top: 1rem;
+}
+
+.Calculate-head p {
+    /* width: 50%; */
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.Calculate {
+    /* width: 50%; */
+    width: 100%;
+}
+.input {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.input-styles {
+    width: 90%;
+    height: 2.5rem;
+    padding: 1rem;
+    margin: 10px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(240, 248, 255, 0.411);
+}
+
+select,
+#Calculate-bmi {
+    width: 90%;
+    height: 2.5rem;
+    padding: 0.5rem;
+    margin: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(202, 193, 193, 0.667);
+
+}
+
+select,
+#ss {
+    width: 95%;
+}
+
+
+
+.sg {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+
+
+/* meet our team section */
+
+.team-title{
+    width: 100%;
+    display: flex;
+    margin: 5rem auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.team-title h2{
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+.team-title p{
+    width: 50%;
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0.9rem;
+}
+
+.team-container{
+    padding: 6rem;
+}
+.team-contents{
+    background: rgba(93, 91, 91, 0.553);
+    border-radius: 0.8rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.8rem;
+    padding: 2rem;
+}
+.team-content{
+    position: relative;
+}
+
+.team-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.8rem;
+}
+
+
+.team-info{
+    position: absolute;
+    bottom: 3rem;
+    left: 2rem;
+}
+.team-info h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.team-info p{
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0.5rem;
+}
+
+
+
+/* Footer section   */
+
+footer{
+    background: rgba(51, 50, 50, 0.27);
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6rem;
+    
+}
+.foot{
+    color: rgb(234, 67, 41);
+    font-size: 2.1rem;
+    font-weight: 800;
+    font-style: italic;
+}
+.footer-description p{
+    width: 40%;
+    font-size: 0.9rem;
+    font-weight: 350;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0.9rem;
+}
+
+.footer-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+    
+}
+.footer-start-contents{
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 600;
+    text-align: left;
+}
+.footer-start-contents p{
+    margin-top: 0.8rem;
+}
+hr{
+    width: 88%;
+    margin: 0 auto;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 2rem;
+}
+
+/* for small devices */
+/* for small devices */
+/* for small devices */
+/* for small devices */
+/* for small devices */
+/* for small devices */
+
+@media screen and (max-width: 576px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        padding: 3.2rem 1.5rem;
+
+    }
+
+    .header-icon {
+        display: block;
+    }
+
+    .navbar-content {
+        display: none;
+    }
+
+    /* navbar section end  */
+
+
+       /* banner   */
+
+    .banner-container {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        margin-top: 6rem;
+    }
+
+    .btn-primary {
+        width: 140px;
+        height: 42px;
+        border: none;
+        border-radius: 40px;
+        background: rgb(230, 83, 60);
+        font-size: 1rem;
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+
+    }
+
+    .btn-secondary {
+        width: 140px;
+        height: 42px;
+        border-radius: 40px;
+        border: 1px solid whitesmoke;
+        background-color: black;
+        font-size: 1rem;
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+
+    }
+
+    .buttons {
+        width: 100%;
+        margin: 1rem auto;
+    }
+
+    .banner-img {
+
+        width: 100%;
+        position: relative;
+
+    }
+
+    .banner-card {
+        width: 6.25rem;
+        height: 4rem;
+        border: 2px solid rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+        backdrop-filter: blur(20px);
+        background: rgba(255, 255, 255, 0.1);
+        padding: 5px;
+        position: absolute;
+        top: 63rem;
+        right: 2.2rem;
+    }
+
+    .banner-card h1 {
+        font-size: 1rem;
+        font-weight: 700;
+        color: white;
+    }
+
+    .banner-card p {
+        font-size: 0.8rem;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.65);
+    }
+
+    .banner-card2 {
+        max-width: 192px;
+        max-height: 97px;
+        border: 2px solid rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+        backdrop-filter: blur(20px);
+        background: rgba(255, 255, 255, 0.1);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 4px;
+        gap: 0.5rem;
+        position: absolute;
+        top: 72rem;
+        right: 9rem;
+    }
+
+    .banner-card2 h1 {
+        font-size: 1.2rem;
+        font-weight: 800;
+        color: white;
+    }
+
+    .banner-card2 p {
+        font-size: 0.8rem;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.65);
+    }
+
+ 
+
+    /* change your habit section  */
+    .habit-cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 1rem;
+    }
+
+  
+
+    /* runner section   */
+    .run-container {
+        width: 87%;
+        margin: 5rem auto;
+        background: rgb(34, 34, 34);
+        border-radius: 1.2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .run-content {
+        width: 100%;
+    }
+
+    .run-content h1 {
+        font-size: 2rem;
+    }
+
+    .run-img {
+        width: 100%;
+    }
+
+    
+
+
+
+    /* bmi */
+
+    .bmi-head{
+        width: 87%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        margin: 5rem auto;
+    }
+
+    .bmi-head p {
+        width: 88%;
+        font-size: 1rem;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.5);
+        margin-top: 0.9rem;
+    }
+
+    .bmi-head h2 {
+        font-size: 2rem;
+        text-align: left;
+    }
+
+    .bmi-content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 1rem;
+    }
+
+    .bmi-chart,
+    table,
+    th,
+    td {
+        padding: 0.6;
+        font-size: 1.5rem;
+    }
+
+    .Calculate-head h3,
+    p {
+        padding: 0.8rem;
+    }
+
+   
+
+    /* meet our team  */
+
+    .team-title h2 {
+        font-size: 2rem;
+    }
+
+    .team-title p {
+        width: 95%;
+    }
+
+    .team-container {
+        padding: 1.2rem;
+    }
+
+    .team-contents {
+        background: rgba(93, 91, 91, 0.553);
+        border-radius: 0.8rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1.2rem;
+        padding: 0.6rem;
+    }
+
+    .team-info {
+        position: absolute;
+        bottom: 2rem;
+        left: 1rem;
+    }
+
+    .team-info h2 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+    }
+
+    .team-info p {
+        font-size: 0.9rem;
+        font-weight: 400;
+        text-align: left;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    
+
+
+    /* footer section  */
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .footer-description p {
+        width: 100%;
+        font-size: 0.9rem;
+        font-weight: 400;
+        text-align: left;
+        color: rgba(255, 255, 255, 0.5);
+        margin-top: 0.9rem;
+    }
+
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        width: 100%;
+        margin-top: 2rem;
+        row-gap: 1rem;
+    }
+
+    .copyright {
+        width: 100%;
+        text-align: left;
+        font-size: 0.9rem;
+        color: rgba(255, 255, 255, 0.5);
+        padding: 1rem;
+    }
+    
+
+}
+
+
+
+
+
+
